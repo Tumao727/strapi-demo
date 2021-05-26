@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/bootcamp-page",
+      "handler": "bootcamp-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/bootcamp-page",
+      "handler": "bootcamp-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/bootcamp-page",
+      "handler": "bootcamp-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

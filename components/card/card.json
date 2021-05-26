@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_card_cards",
+  "info": {
+    "name": "card",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

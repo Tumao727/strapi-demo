@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "bootcamp_pages",
+  "info": {
+    "name": "bootcampPage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "benchmarkTitle": {
+      "type": "string"
+    },
+    "benchmarks": {
+      "type": "dynamiczone",
+      "components": [
+        "card.card"
+      ]
+    }
+  }
+}
